@@ -1,8 +1,8 @@
 
 def calculateStats(numbers):
-  computedStats = dict()
+  computedStats = dict() 
   if len(numbers):
-    computedStats['avg'] = sum(numbers)/ len(numbers)
+    computedStats['avg'] = sum(numbers) / len(numbers)
     computedStats['max'] = max(numbers)
     computedStats['min'] = min(numbers)
   else:
